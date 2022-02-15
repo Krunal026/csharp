@@ -1,24 +1,24 @@
-﻿////wap to accept 2 no and print greater no.
+﻿//using System;
 
-//using System;
-
-//namespace ifelse
+//namespace ifelsee
 //{
 //    class @ifelse
 //    {
-//        static void Main()
+//       static void Main()
 //        {
-//            int n1, n2;
-//            Console.WriteLine("Enter 2 Numbers");
-//            n1 = Convert.ToInt32(Console.ReadLine());
-//            n2 = Convert.ToInt32(Console.ReadLine());
+//            int per;
+//            Console.WriteLine("Enter the percentage");
+//            per = Convert.ToInt32(Console.ReadLine());
 
-//            if (n1 > n2)
-//                Console.WriteLine("N1 is greater");
+//            if(per>= 35)
+//            {
+//                Console.WriteLine("Passed");
+//            }
+
 //            else
-//                Console.WriteLine("N2 is greater");
-
-//            Console.ReadLine();
+//            {
+//                Console.WriteLine("Failed");
+//            }
 //        }
 //    }
 //}
