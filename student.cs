@@ -1,96 +1,79 @@
-﻿////3- create a class student having fields rno,name,mathsmarks, chemmarks,phymarks,
-////total, per,grade and method result to calculate and display total, per and grade
+﻿////6 create a class student having fields rno,name,course,fees create a method getdata with no parameters ,
+////create overloaded method with 2 parameters, 3 parameters, 4 parameters and display method.
 
 
 //using System;
-
 //namespace student
 //{
 //    class student
 //    {
 //        int rno;
-//        string name;
-//        int mathsmarks;
-//        int chemmarks;
-//        int phymarks;
-//        int total;
-//        float per;
-//        string grade;
+//        string name, course;
+//        int fees;
 
-//        public void totall(int mathsmarks, int chemmarks, int phymarks)
+//        public void getdata()
 //        {
-//            total = mathsmarks + chemmarks + phymarks;
-//        }
-//        public void showtotall()
-//        {
-//            Console.WriteLine("Total of all Marks are" + total);
+//            rno = 123;
+//            name = "krunal";
+//            course = "dotnet";
+//            fees = 75000;
 //        }
 
-
-
-//        public void perr(int mathsmarks, int chemmarks, int phymarks)
+//        public void getdata(int rno,string name)
 //        {
-//            per = (mathsmarks + chemmarks + phymarks)*100 / 300;
-//        }
-//        public void showperr()
-//        {
-//            Console.WriteLine("Percentage are" + per);
+//            this.rno = rno;
+//            this.name = name;
 //        }
 
-
-//        public void gradee(int mathsmarks, int chemmarks, int phymarks)
+//        public void getdata( int rno, string name, string course)
 //        {
-//            per = (mathsmarks + chemmarks + phymarks) *100 / 300;
-
-
+//            this.rno = rno;
+//            this.name = name;
+//            this.course = course;
 
 //        }
-//        public void showgradee()
+
+//        public void getdata(int rno, string name, string course, int fees)
 //        {
-//            if(per>80)
-//            {
-//                Console.WriteLine("Grade A");
-//            }
+//            this.rno = rno;
+//            this.name = name;
+//            this.course =course;
+//            this.fees = fees;
 
-//            else if(per >35 && per<79)
-//            {
-//                Console.WriteLine("Grade B");
-//            }
-
-//            else
-//            {
-//                Console.WriteLine("Grade C");
-//            }
 //        }
 
+//        public void showdata()
+//        {
+//            Console.WriteLine("Roll number = " + rno);
+//            Console.WriteLine("Name = " + name);
+//            Console.WriteLine("Course = " + course);
+//            Console.WriteLine("Fees = " + fees);
+//        }
 //    }
 
-//    class @studentt
+//    class buk
 //    {
 //        static void Main()
 //        {
 //            student stu = new student();
+//            stu.getdata();
+//            stu.showdata();
+//            Console.WriteLine("------------------------------------------------------");
 
-//            Console.WriteLine("Enter Your Name");
-//            string name = Console.ReadLine();
-//            Console.WriteLine("Enter Your Roll Number");
-//            int rno = Convert.ToInt32(Console.ReadLine());
-//            Console.WriteLine("Enter maths marks");
-//            int mathsmarks = Convert.ToInt32(Console.ReadLine());
-//            Console.WriteLine("Enter chemistry marks");
-//            int chemmarks = Convert.ToInt32(Console.ReadLine());
-//            Console.WriteLine("Enter Physics marks");
-//            int phymarks = Convert.ToInt32(Console.ReadLine());
+//            student stu1 = new student();
+//            stu1.getdata(12,"vivek");
+//            stu1.showdata();
+//            Console.WriteLine("------------------------------------------------------");
 
+//            student stu2 = new student();
+//            stu2.getdata(12, "vivek","python");
+//            stu2.showdata();
+//            Console.WriteLine("------------------------------------------------------");
 
-//            stu.totall(mathsmarks,chemmarks,phymarks);
-//            stu.showtotall();
-
-//            stu.perr(mathsmarks, chemmarks, phymarks);
-//            stu.showperr();
-
-//            stu.gradee(mathsmarks, chemmarks, phymarks);
-//            stu.showgradee();
+//            student stu3 = new student();
+//            stu3.getdata(12, "vivek", "python",50000);
+//            stu3.showdata();
+//            Console.WriteLine("------------------------------------------------------");
 
 
 //            Console.ReadLine();
@@ -98,8 +81,4 @@
 
 //        }
 //    }
-
-
-
 //}
-
