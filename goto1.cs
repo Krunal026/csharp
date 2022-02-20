@@ -1,28 +1,28 @@
 ﻿//using System;
+//using System.Collections.Generic;
 
 //namespace gotoo
 //{
-//    class @goto
+//    class gotooo
 //    {
 //        static void Main()
 //        {
-//            int num;
-//            Console.WriteLine("Enter Any Number");
-//            num = Convert.ToInt32(Console.ReadLine());
+//            for (int i=1; i<=10; i++)
+//            {
+//                if(i==6)
+//                {
+//                    goto endloop;
+//                }
 
-//            if (num % 2 == 0) goto Even;
-//            Console.WriteLine("No Is Odd");
-//            goto End;
+//                Console.WriteLine("Value of i is = " + i);
+//            }
 
-//        Even:
-//            Console.WriteLine("No Is Even");
-
-//        End:;
-
+//        endloop:
+//            Console.WriteLine("The End");
 
 //            Console.ReadLine();
-
+                
+               
 //        }
 //    }
 //}
-
