@@ -1,7 +1,6 @@
-﻿
-//using System;
+﻿//using System;
 
-//namespace factorial
+//namespace fact
 //{
 //    class factt
 //    {
@@ -9,17 +8,14 @@
 //        {
 //            int i, fact = 1, num;
 
-//            Console.WriteLine("Enter any number : ");
-//            num = Convert.ToInt32(Console.ReadLine());
+//            num = 5;
 
-//            for (i=1; i<=num; i++)
+//            for (i = 1; i <= num; i++)
 //            {
 //                fact = fact * i;
 //            }
 
 //            Console.WriteLine("Factorial is : " + fact);
 //        }
-
-        
 //    }
 //}

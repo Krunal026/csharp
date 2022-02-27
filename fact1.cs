@@ -1,33 +1,18 @@
 ﻿//using System;
-
-
-//namespace fact1
+//class Factorial
 //{
-//    class @fact1
+//    static void Main()
 //    {
-        
-//        static int factorial(int num)
+//        int i, fact = 1, number;
+
+//        Console.Write("Enter any Number: ");
+//        number = Convert.ToInt32(Console.ReadLine());
+
+
+//        for (i = 1; i <= number; i++)
 //        {
-//            int fact = 1;
-
-//            while (num > 0)
-//            {
-//                fact = fact * num;
-//                num--;
-//            }
-//            return fact;
-
-
+//            fact = fact * i;
 //        }
-//        static void Main()
-//        {
-//            int num = 5;
-//            int result;
-//            result = factorial(num);
-//            Console.WriteLine("fact = {0}", result);
-//            Console.ReadLine();
-
-//        }
+//        Console.Write("Factorial of " + number + " is: " + fact);
 //    }
 //}
-
