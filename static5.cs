@@ -1,24 +1,40 @@
-﻿////C# static class example
+﻿//using System;
 
-//using System;
-
-//namespace staticc
+//namespace abc
 //{
 
 
-//    public static class MyMath
+//    public class Account
 //    {
-//        public static float PI = 3.14f;
-//        public static int cube(int n) { return n * n * n; }
+//        public int accno;
+//        public String name;
+//        public static float rateOfInterest = 10.2f;
+
+//        public Account(int accno, String name)
+//        {
+//            this.accno = accno;
+//            this.name = name;
+//        }
+
+//        public void display()
+//        {
+//            Console.WriteLine(accno + " " + name + " " + rateOfInterest);
+//        }
+
 //    }
-//    class TestMyMath
+
+//    class Accountt
 //    {
 //        public static void Main()
 //        {
-
-           
-//            Console.WriteLine("Value of PI is: " + MyMath.PI);
-//            Console.WriteLine("Cube of 3 is: " + MyMath.cube(4));
+//            Account a1 = new Account(101, "Krunal");
+//            Account a2 = new Account(102, "Vivek");
+//            Account a3 = new Account(103, "Aditya");
+//            Account a4 = new Account(104, "Keshav");
+//            a1.display();
+//            a2.display();
+//            a3.display();
+//            a4.display();
 //        }
 //    }
 //}

@@ -1,44 +1,37 @@
-﻿////C#  changing static field
+﻿//using System;
 
-//using System;
-
-//namespace staticc
+//namespace abc
 //{
-//    public class account
+
+//    public class Account
 //    {
-//        int accno;
-//        string name;
-//        public static float roi = 8.8f;
+//        public int accno;
+//        public String name;
+//        public static float rateOfInterest = 9.2f;
 
-
-//        public account(int accno, string name)
+//        public Account(int accno, String name)
 //        {
 //            this.accno = accno;
 //            this.name = name;
-
 //        }
 
 //        public void display()
 //        {
-//            Console.WriteLine(accno + " " + name + " " + roi);
+//            Console.WriteLine(accno + " " + name + " " + rateOfInterest);
 //        }
+
 //    }
 
-//    class act
+
+//    class Accountt
 //    {
 //        public static void Main()
 //        {
-
-//            account.roi = 10.2f;
-//            account a1 = new account(101, "Krunal");
-
-//            account a2 = new account(102, "Vivek");
-
+//            Account a1 = new Account(101, "Krunal");
+//            Account a2 = new Account(102, "Vivek");
 //            a1.display();
 //            a2.display();
 
-
 //        }
-
 //    }
 //}

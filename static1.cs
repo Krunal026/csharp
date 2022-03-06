@@ -1,21 +1,38 @@
-﻿////to access static method display instance is not required
+﻿//using System;
 
-//using System;
-
-//namespace staticc
+//namespace abc
 //{
-//    class abc
+
+
+//    public class Account
 //    {
+//        public int accno;
+//        public String name;
+//        public static float rateOfInterest = 8.8f;
 
-
-//        static void display()
+//        public Account(int accno, String name)
 //        {
-//            Console.WriteLine("Helooo krunal");
+//            this.accno = accno;
+//            this.name = name;
 //        }
-                    
-//        static void Main()
+
+//        public void display()
 //        {
-//            display();
+//            Console.WriteLine(accno + " " + name + " " + rateOfInterest);
+//        }
+
+//    }
+
+
+//    class Accountt
+//    {
+//        public static void Main()
+//        {
+//            Account a1 = new Account(101, "Sonoo");
+//            Account a2 = new Account(102, "Mahesh");
+//            a1.display();
+//            a2.display();
+
 //        }
 //    }
 //}

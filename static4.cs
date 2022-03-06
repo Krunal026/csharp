@@ -1,6 +1,6 @@
 ﻿//using System;
 
-//namespace staticc
+//namespace abc
 //{
 
 
@@ -8,32 +8,32 @@
 //    {
 //        public int accno;
 //        public String name;
-//        public static float roi = 8.2f;
-//        public static int count = 0;
+//        public static float rateOfInterest = 10.2f;
+
 //        public Account(int accno, String name)
 //        {
 //            this.accno = accno;
 //            this.name = name;
-//            count++;
 //        }
 
 //        public void display()
 //        {
-//            Console.WriteLine(accno + " " + name + " " + roi);
+//            Console.WriteLine(accno + " " + name + " " + rateOfInterest);
 //        }
+
 //    }
-//    class TestAccount
+
+//    class Accountt
 //    {
-//        public static void Main(string[] args)
+//        public static void Main()
 //        {
-//            Account a1 = new Account(101, "Sonoo");
-//            Account a2 = new Account(102, "Mahesh");
-//            Account a3 = new Account(103, "Ajeet");
+//            Account a1 = new Account(101, "Krunal");
+//            Account a2 = new Account(102, "Vivek");
+//            Account a3 = new Account(103, "Aditya");
 //            a1.display();
 //            a2.display();
 //            a3.display();
-//            Console.WriteLine("Total Objects are: " + Account.count);
+
 //        }
 //    }
-
 //}
